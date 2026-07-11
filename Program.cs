@@ -6,6 +6,9 @@ namespace CSharpTutorial {
         static void Main(String[] args) {
             DataTypeUtils dataTypeObj = new DataTypeUtils();
             dataTypeObj.SampleDataType();
+
+            VariableUtils variableUtils = new VariableUtils();
+            variableUtils.varibales();
         }
     }
 }
