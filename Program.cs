@@ -1,26 +1,26 @@
-﻿using System;
-using CSharpTutorial.Helpers;
+﻿using CSharpTutorial.Helpers;
 
-namespace CSharpTutorial {
-    class Program {
-        static void Main(String[] args) {
-            DataTypeUtils dataTypeObj = new DataTypeUtils();
-            dataTypeObj.SampleDataType();
-            dataTypeObj.SampleTypeCasting();
-            dataTypeObj.SampleConverting();
+namespace CSharpTutorial;
 
-            VariableUtils variableUtils = new VariableUtils();
-            variableUtils.varibales();
+class Program
+{
+    static void Main(String[] args)
+    {
+        var dataTypeObj = new DataTypeUtils();
+        dataTypeObj.SampleDataType();
+        dataTypeObj.SampleTypeCasting();
+        dataTypeObj.SampleConverting();
 
-            OperatorsUtils operatorsUtils = new OperatorsUtils();
-            operatorsUtils.ArithmeticOperation();
-            operatorsUtils.RelationalOperators();
-            operatorsUtils.LogicalOperators();
-            operatorsUtils.BitwiseOperator();
-            operatorsUtils.AssignmentOperators();
-            operatorsUtils.TernaryOperator();
-            operatorsUtils.MiscellaneousOperators();
+        VariableUtils variableUtils = new();
+        variableUtils.varibales();
 
-        }
+        OperatorsUtils operatorsUtils = new();
+        operatorsUtils.ArithmeticOperation();
+        operatorsUtils.RelationalOperators();
+        operatorsUtils.LogicalOperators();
+        operatorsUtils.BitwiseOperator();
+        operatorsUtils.AssignmentOperators();
+        operatorsUtils.TernaryOperator();
+        operatorsUtils.MiscellaneousOperators();
     }
 }
