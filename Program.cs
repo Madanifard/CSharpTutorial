@@ -22,5 +22,10 @@ class Program
         operatorsUtils.AssignmentOperators();
         operatorsUtils.TernaryOperator();
         operatorsUtils.MiscellaneousOperators();
+
+        DecisionMakingUtils decisionMakingUtils = new();
+        decisionMakingUtils.IfStatement();
+        decisionMakingUtils.SwitchStatement();
+        decisionMakingUtils.NestedSwitchStatement();
     }
 }
